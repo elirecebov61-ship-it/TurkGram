@@ -13,16 +13,11 @@ import org.telegram.messenger.BuildVars;
 
 public class AyuConstants {
     public static final long[] OFFICIAL_CHANNELS = {
-            1905581924, // @ayugramchat
-            1794457129, // @ayugram1338
-            1434550607, // @radolyn
+            3738971861, // @turkgramchat
+            3931869848, // @turkgrams
     };
     public static final long[] DEVS = {
-            139303278, // @alexeyzavar
-            778327202, // @sharapagorg
-            963494570, // @Zanko_no_tachi
-            238292700, // @MaxPlays
-            1795176335, // @radolyn_services
+            8034872992, // me
     };
 
     public static final int DOCUMENT_TYPE_NONE = 0;

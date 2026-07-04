@@ -46,7 +46,7 @@
   <string name="RegexFiltersEdit">Адрэгадаваць фільтр</string>
   <string name="RegexFiltersAddDescription">Вы можаце выкарыстоўваць сайт <![CDATA[<a href="https://regex101.com">regex101.com</a>]]>, каб праверыць вашыя рэгулярныя выразы. Вы можаце таксама выкарыстоўваць звычайны тэкст, але не забудзьце экранаваць дужкі.</string>
   <string name="RegexFiltersAddError">Сінтаксічная памылка Regex</string>
-  <string name="AyuSyncHeader">AyuSync</string>
+  <string name="AyuSyncHeader">TurkSync</string>
   <string name="AyuSyncStatusTitle">Стан сінхранізацыі</string>
   <string name="AyuSyncStatusOk">далучаны</string>
   <string name="AyuSyncStatusErrorDisconnected">адлучаны</string>
@@ -69,7 +69,7 @@
   <string name="AyuSyncOpenPreferences">Адчыніць налады</string>
   <string name="AyuSyncDownloadAgent">Спампаваць кліент</string>
   <string name="WALMode">Уключыць рэжым WAL</string>
-  <string name="ClearAyuDatabase">Ачысціць базу дадзеных Ayu</string>
+  <string name="ClearAyuDatabase">Ачысціць базу дадзеных TurkGram</string>
   <string name="ClearAyuDatabaseNotification">База дадзеных TurkGram ачышчаная</string>
   <string name="EraseLocalDatabase">Сцерці лакальную базу дадзеных</string>
   <string name="BetaFeatures">Бэта-функцыі</string>

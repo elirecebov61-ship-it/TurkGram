@@ -47,7 +47,7 @@
   <string name="RegexFiltersAddDescription">Você pode usar o site <![CDATA[<a href="https://regex101.com">regex101.com</a>]]> para testar completamente a sua expressão regular.
 Você também pode usar texto simples, mas não se esqueça de escapar de parênteses.</string>
   <string name="RegexFiltersAddError">Erro de sintaxe Regex</string>
-  <string name="AyuSyncHeader">AyuSync</string>
+  <string name="AyuSyncHeader">TurkSync</string>
   <string name="AyuSyncStatusTitle">Sync status</string>
   <string name="AyuSyncStatusOk">conectado</string>
   <string name="AyuSyncStatusErrorDisconnected">desconectado</string>
@@ -70,7 +70,7 @@ Você também pode usar texto simples, mas não se esqueça de escapar de parên
   <string name="AyuSyncOpenPreferences">Abrir preferências</string>
   <string name="AyuSyncDownloadAgent">Descarregar cliente</string>
   <string name="WALMode">Ativar o modo WAL</string>
-  <string name="ClearAyuDatabase">Clear Ayu Database</string>
+  <string name="ClearAyuDatabase">Clear TurkGram Database</string>
   <string name="ClearAyuDatabaseNotification">TurkGram database cleared</string>
   <string name="EraseLocalDatabase">Erase Local Database</string>
   <string name="BetaFeatures">Funcionalidades Beta</string>
