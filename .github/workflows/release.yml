@@ -33,6 +33,12 @@ jobs:
             SIGNING_KEY_STORE_PASSWORD = "${{ secrets.CERT_KEY }}"
           write-mode: overwrite
 
+
+      - name: Debug secret length
+        run: |
+          echo "CERT_KEY length: ${#CERT_KEY}"
+        env:
+          CERT_KEY: ${{ secrets.CERT_KEY }}
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
