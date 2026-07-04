@@ -1,5 +1,5 @@
 /*
- * This is the source code of AyuGram for Android.
+ * This is the source code of TurkGram for Android.
  *
  * We do not and cannot prevent the use of our code,
  * but be respectful and credit the original author.
@@ -7,16 +7,16 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.ui.preferences;
+package com.radolyn.turkgram.ui.preferences;
 
 import android.content.Context;
 import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.exteragram.messenger.preferences.BasePreferencesActivity;
-import com.radolyn.ayugram.AyuConfig;
-import com.radolyn.ayugram.AyuFilter;
-import com.radolyn.ayugram.ui.preferences.utils.RegexFilterPopup;
+import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.turkgram.AyuFilter;
+import com.radolyn.turkgram.ui.preferences.utils.RegexFilterPopup;
 import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.R;
 import org.telegram.ui.ActionBar.Theme;

@@ -1,5 +1,5 @@
 /*
- * This is the source code of AyuGram for Android.
+ * This is the source code of TurkGram for Android.
  *
  * We do not and cannot prevent the use of our code,
  * but be respectful and credit the original author.
@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.easy;
+package com.radolyn.turkgram.easy;
 
 import android.text.TextUtils;
 import android.util.Log;
@@ -61,13 +61,13 @@ public class DummyFileLoadWaiter extends EasyWaiter {
             var name = (String) args[0];
             var path = (File) args[1];
 
-            Log.w("AyuGram", "loaded: " + path + " " + name);
+            Log.w("TurkGram", "loaded: " + path + " " + name);
 
             process(name);
         } else if (id == NotificationCenter.fileLoadFailed) {
             var name = (String) args[0];
 
-            Log.w("AyuGram", "failed: " + name);
+            Log.w("TurkGram", "failed: " + name);
 
             process(name);
         }

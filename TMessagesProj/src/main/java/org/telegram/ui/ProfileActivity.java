@@ -102,9 +102,9 @@ import com.exteragram.messenger.utils.AppUtils;
 import com.exteragram.messenger.utils.CanvasUtils;
 import com.exteragram.messenger.utils.ChatUtils;
 import com.exteragram.messenger.utils.LocaleUtils;
-import com.radolyn.ayugram.AyuConfig;
+import com.radolyn.turkgram.AyuConfig;
 
-import com.radolyn.ayugram.ui.preferences.AyuGramPreferencesActivity;
+import com.radolyn.turkgram.ui.preferences.TurkGramPreferencesActivity;
 import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.messenger.AccountInstance;
 import org.telegram.messenger.AndroidUtilities;
@@ -3310,7 +3310,7 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
             } else if (position == exteraRow) {
                 presentFragment(new MainPreferencesActivity());
             } else if (position == ayuRow) {
-                presentFragment(new AyuGramPreferencesActivity());
+                presentFragment(new TurkGramPreferencesActivity());
             } else if (position == notificationRow) {
                 presentFragment(new NotificationsSettingsActivity());
             } else if (position == privacyRow) {

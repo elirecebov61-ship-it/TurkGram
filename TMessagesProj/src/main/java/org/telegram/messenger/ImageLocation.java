@@ -1,6 +1,6 @@
 package org.telegram.messenger;
 
-import com.radolyn.ayugram.utils.AyuFileLocation;
+import com.radolyn.turkgram.utils.AyuFileLocation;
 
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
@@ -109,11 +109,11 @@ public class ImageLocation {
             return null;
         }
 
-        // --- AyuGram hook
+        // --- TurkGram hook
         if (photoSize.location instanceof AyuFileLocation) {
             return ImageLocation.getForPath(((AyuFileLocation) photoSize.location).path);
         }
-        // --- AyuGram hook
+        // --- TurkGram hook
 
         int dc_id;
         if (photo.dc_id != 0) {

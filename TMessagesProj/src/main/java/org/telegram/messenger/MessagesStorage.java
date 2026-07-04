@@ -22,10 +22,10 @@ import android.util.SparseIntArray;
 import androidx.annotation.UiThread;
 import androidx.collection.LongSparseArray;
 
-import com.radolyn.ayugram.AyuConfig;
-import com.radolyn.ayugram.messages.AyuMessagesController;
+import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.turkgram.messages.AyuMessagesController;
 
-import com.radolyn.ayugram.messages.AyuSavePreferences;
+import com.radolyn.turkgram.messages.AyuSavePreferences;
 import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.SQLite.SQLiteCursor;
 import org.telegram.SQLite.SQLiteDatabase;
@@ -4258,13 +4258,13 @@ public class MessagesStorage extends BaseController {
                             if (!addFilesToDelete(message, filesToDelete, idsToDelete, namesToDelete, true)) {
                                 continue;
                             } else {
-                                // --- AyuGram hook
+                                // --- TurkGram hook
                                 if (AyuConfig.saveMessagesHistory) {
                                     var prefs = new AyuSavePreferences(message, currentAccount);
                                     prefs.setDialogId(dialogId);
                                     AyuMessagesController.getInstance().onMessageEditedForce(prefs);
                                 }
-                                // --- AyuGram hook
+                                // --- TurkGram hook
 
                                 if (message.media.document != null) {
                                     message.media.document = new TLRPC.TL_documentEmpty();

@@ -17,8 +17,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.exteragram.messenger.ExteraConfig;
 import com.exteragram.messenger.utils.ChatUtils;
 import com.exteragram.messenger.utils.SystemUtils;
-import com.radolyn.ayugram.AyuConfig;
-import com.radolyn.ayugram.AyuConstants;
+import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.turkgram.AyuConstants;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;
@@ -310,7 +310,7 @@ public class DrawerLayoutAdapter extends RecyclerListView.SelectionAdapter {
             peopleNearbyIcon = R.drawable.msg_nearby;
         }
 
-        // --- AyuGram hook
+        // --- TurkGram hook
         if (AyuConfig.showGhostToggleInDrawer) {
             var msg = AyuConfig.isGhostModeActive()
                     ? LocaleController.getString("DisableGhostMode", R.string.DisableGhostMode)
@@ -322,7 +322,7 @@ public class DrawerLayoutAdapter extends RecyclerListView.SelectionAdapter {
             items.add(new Item(AyuConstants.DRAWER_KILL_APP, LocaleController.getString("KillApp", R.string.KillApp), R.drawable.msg_disable));
             items.add(null);
         }
-        // --- AyuGram hook
+        // --- TurkGram hook
 
         UserConfig me = UserConfig.getInstance(UserConfig.selectedAccount);
         if (me != null && me.isPremium() && ExteraConfig.changeStatus) {

@@ -1,5 +1,5 @@
 /*
- * This is the source code of AyuGram for Android.
+ * This is the source code of TurkGram for Android.
  *
  * We do not and cannot prevent the use of our code,
  * but be respectful and credit the original author.
@@ -7,20 +7,20 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.ui.preferences;
+package com.radolyn.turkgram.ui.preferences;
 
 import android.content.Context;
 import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.exteragram.messenger.preferences.BasePreferencesActivity;
-import com.radolyn.ayugram.AyuConfig;
-import com.radolyn.ayugram.AyuConstants;
-import com.radolyn.ayugram.AyuUtils;
-import com.radolyn.ayugram.sync.AyuSyncConfig;
-import com.radolyn.ayugram.sync.AyuSyncController;
-import com.radolyn.ayugram.sync.AyuSyncState;
-import com.radolyn.ayugram.ui.preferences.utils.AyuUi;
+import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.turkgram.AyuConstants;
+import com.radolyn.turkgram.AyuUtils;
+import com.radolyn.turkgram.sync.AyuSyncConfig;
+import com.radolyn.turkgram.sync.AyuSyncController;
+import com.radolyn.turkgram.sync.AyuSyncState;
+import com.radolyn.turkgram.ui.preferences.utils.AyuUi;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.NotificationCenter;

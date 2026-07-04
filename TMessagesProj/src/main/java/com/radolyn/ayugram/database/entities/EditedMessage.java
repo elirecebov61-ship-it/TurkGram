@@ -1,5 +1,5 @@
 /*
- * This is the source code of AyuGram for Android.
+ * This is the source code of TurkGram for Android.
  *
  * We do not and cannot prevent the use of our code,
  * but be respectful and credit the original author.
@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.database.entities;
+package com.radolyn.turkgram.database.entities;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;

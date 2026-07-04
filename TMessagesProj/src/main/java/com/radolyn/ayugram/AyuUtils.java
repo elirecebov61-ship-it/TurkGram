@@ -1,5 +1,5 @@
 /*
- * This is the source code of AyuGram for Android.
+ * This is the source code of TurkGram for Android.
  *
  * We do not and cannot prevent the use of our code,
  * but be respectful and credit the original author.
@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram;
+package com.radolyn.turkgram;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -41,7 +41,7 @@ public class AyuUtils {
         try {
             success = from.renameTo(to);
         } catch (SecurityException e) {
-            Log.d("AyuGram", e.toString());
+            Log.d("TurkGram", e.toString());
             success = false;
         }
 
@@ -49,7 +49,7 @@ public class AyuUtils {
             try {
                 success = AndroidUtilities.copyFile(from, to);
             } catch (Exception e) {
-                Log.d("AyuGram", e.toString());
+                Log.d("TurkGram", e.toString());
             }
         }
 
@@ -156,7 +156,7 @@ public class AyuUtils {
 
             return new Pair<>(w, h);
         } catch (Exception e) {
-            Log.d("AyuGram", "extractImageSizeFromName fucked", e);
+            Log.d("TurkGram", "extractImageSizeFromName fucked", e);
             return null;
         }
     }
@@ -172,7 +172,7 @@ public class AyuUtils {
 
             return new Pair<>(w, h);
         } catch (Exception e) {
-            Log.d("AyuGram", "extractImageSizeFromFile fucked", e);
+            Log.d("TurkGram", "extractImageSizeFromFile fucked", e);
             return null;
         }
     }

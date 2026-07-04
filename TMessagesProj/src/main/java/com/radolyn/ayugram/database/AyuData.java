@@ -1,5 +1,5 @@
 /*
- * This is the source code of AyuGram for Android.
+ * This is the source code of TurkGram for Android.
  *
  * We do not and cannot prevent the use of our code,
  * but be respectful and credit the original author.
@@ -7,12 +7,12 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.database;
+package com.radolyn.turkgram.database;
 
 import androidx.room.Room;
-import com.radolyn.ayugram.AyuConstants;
-import com.radolyn.ayugram.database.dao.DeletedMessageDao;
-import com.radolyn.ayugram.database.dao.EditedMessageDao;
+import com.radolyn.turkgram.AyuConstants;
+import com.radolyn.turkgram.database.dao.DeletedMessageDao;
+import com.radolyn.turkgram.database.dao.EditedMessageDao;
 import org.telegram.messenger.ApplicationLoader;
 
 public class AyuData {

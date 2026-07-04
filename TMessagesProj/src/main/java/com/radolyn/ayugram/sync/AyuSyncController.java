@@ -1,5 +1,5 @@
 /*
- * This is the source code of AyuGram for Android.
+ * This is the source code of TurkGram for Android.
  *
  * We do not and cannot prevent the use of our code,
  * but be respectful and credit the original author.
@@ -7,17 +7,17 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.sync;
+package com.radolyn.turkgram.sync;
 
 import android.text.TextUtils;
 import android.util.Log;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
-import com.radolyn.ayugram.AyuConfig;
-import com.radolyn.ayugram.AyuUtils;
-import com.radolyn.ayugram.sync.models.*;
-import com.radolyn.ayugram.utils.AyuGhostUtils;
+import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.turkgram.AyuUtils;
+import com.radolyn.turkgram.sync.models.*;
+import com.radolyn.turkgram.utils.AyuGhostUtils;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -126,7 +126,7 @@ public class AyuSyncController {
 
         // note for the code explorers:
         // yes, you can nullify this code in smali, but we have server side check,
-        // so you can't sync without AyuGram MVP.
+        // so you can't sync without TurkGram MVP.
         if (!self.isMVP) {
             nullifyInstance();
             AyuSyncState.setConnectionState(AyuSyncConnectionState.NoMVP);

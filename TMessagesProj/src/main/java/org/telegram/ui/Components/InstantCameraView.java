@@ -72,7 +72,7 @@ import com.exteragram.messenger.camera.CameraXUtils;
 import com.google.android.exoplayer2.ExoPlayer;
 import com.google.android.exoplayer2.util.Log;
 
-import com.radolyn.ayugram.AyuConfig;
+import com.radolyn.turkgram.AyuConfig;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.AnimationNotificationsLocker;
 import org.telegram.messenger.ApplicationLoader;
@@ -2369,12 +2369,12 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                         } else {
                             baseFragment.sendMedia(new MediaController.PhotoEntry(0, 0, 0, videoFile.getAbsolutePath(), 0, true, 0, 0, 0), videoEditedInfo, true, 0, false);
 
-                            // --- AyuGram scheduled hook
+                            // --- TurkGram scheduled hook
                             if (AyuConfig.useScheduledMessages) {
                                 // hack to close instant camera view
                                 startAnimation(false);
                             }
-                            // --- AyuGram hook
+                            // --- TurkGram hook
                         }
                     } else {
                         videoPlayer = new VideoPlayer();

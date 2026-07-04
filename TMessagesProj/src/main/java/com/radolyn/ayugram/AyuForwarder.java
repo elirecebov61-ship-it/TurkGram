@@ -1,5 +1,5 @@
 /*
- * This is the source code of AyuGram for Android.
+ * This is the source code of TurkGram for Android.
  *
  * We do not and cannot prevent the use of our code,
  * but be respectful and credit the original author.
@@ -7,13 +7,13 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram;
+package com.radolyn.turkgram;
 
 import android.text.TextUtils;
 import android.util.LongSparseArray;
 import com.exteragram.messenger.utils.ChatUtils;
 import com.google.android.exoplayer2.util.Log;
-import com.radolyn.ayugram.easy.AyuEasyUtils;
+import com.radolyn.turkgram.easy.AyuEasyUtils;
 import org.telegram.messenger.*;
 import org.telegram.tgnet.TLRPC;
 
@@ -174,13 +174,13 @@ public class AyuForwarder {
                         isFinalInGroup
                 );
             } else {
-                Log.w("AyuGram", "Unsupported message type: " + message.messageOwner);
+                Log.w("TurkGram", "Unsupported message type: " + message.messageOwner);
             }
 
-            Log.w("AyuGram", "Message forwarded");
+            Log.w("TurkGram", "Message forwarded");
         }
 
-        Log.w("AyuGram", "All messages forwarded");
+        Log.w("TurkGram", "All messages forwarded");
     }
 
     private static TLRPC.TL_document mapDocument(int currentAccount, TLRPC.Document doc, File messagePath) {

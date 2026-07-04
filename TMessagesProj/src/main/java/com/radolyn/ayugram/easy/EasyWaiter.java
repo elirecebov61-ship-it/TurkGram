@@ -1,5 +1,5 @@
 /*
- * This is the source code of AyuGram for Android.
+ * This is the source code of TurkGram for Android.
  *
  * We do not and cannot prevent the use of our code,
  * but be respectful and credit the original author.
@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.easy;
+package com.radolyn.turkgram.easy;
 
 import com.google.android.exoplayer2.util.Log;
 import org.telegram.messenger.AndroidUtilities;
@@ -35,7 +35,7 @@ public abstract class EasyWaiter implements NotificationCenter.NotificationCente
 
     public void subscribe() {
         if (notifications.isEmpty()) {
-            Log.e("AyuGram", "saving some hours of debugging just for you <3");
+            Log.e("TurkGram", "saving some hours of debugging just for you <3");
             throw new IllegalStateException("NO NOTIFICATIONS SPECIFIED");
         }
 

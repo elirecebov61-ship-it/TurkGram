@@ -1,5 +1,5 @@
 /*
- * This is the source code of AyuGram for Android.
+ * This is the source code of TurkGram for Android.
  *
  * We do not and cannot prevent the use of our code,
  * but be respectful and credit the original author.
@@ -7,20 +7,20 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.messages;
+package com.radolyn.turkgram.messages;
 
 import android.os.Environment;
 import android.text.TextUtils;
 import com.google.android.exoplayer2.util.Log;
-import com.radolyn.ayugram.AyuConfig;
-import com.radolyn.ayugram.AyuConstants;
-import com.radolyn.ayugram.database.AyuData;
-import com.radolyn.ayugram.database.dao.DeletedMessageDao;
-import com.radolyn.ayugram.database.dao.EditedMessageDao;
-import com.radolyn.ayugram.database.entities.DeletedMessage;
-import com.radolyn.ayugram.database.entities.DeletedMessageFull;
-import com.radolyn.ayugram.database.entities.DeletedMessageReaction;
-import com.radolyn.ayugram.database.entities.EditedMessage;
+import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.turkgram.AyuConstants;
+import com.radolyn.turkgram.database.AyuData;
+import com.radolyn.turkgram.database.dao.DeletedMessageDao;
+import com.radolyn.turkgram.database.dao.EditedMessageDao;
+import com.radolyn.turkgram.database.entities.DeletedMessage;
+import com.radolyn.turkgram.database.entities.DeletedMessageFull;
+import com.radolyn.turkgram.database.entities.DeletedMessageReaction;
+import com.radolyn.turkgram.database.entities.EditedMessage;
 import com.radolyn.ayugram.proprietary.AyuMessageUtils;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;
@@ -71,7 +71,7 @@ public class AyuMessagesController {
         try {
             onMessageEditedInner(prefs, newMessage, false);
         } catch (Exception e) {
-            Log.e("AyuGram", "error onMessageEdited", e);
+            Log.e("TurkGram", "error onMessageEdited", e);
             FileLog.e("onMessageEdited", e);
         }
     }
@@ -80,7 +80,7 @@ public class AyuMessagesController {
         try {
             onMessageEditedInner(prefs, prefs.getMessage(), true);
         } catch (Exception e) {
-            Log.e("AyuGram", "error onMessageEditedForce", e);
+            Log.e("TurkGram", "error onMessageEditedForce", e);
             FileLog.e("onMessageEditedForce", e);
         }
     }
@@ -131,14 +131,14 @@ public class AyuMessagesController {
 
     public void onMessageDeleted(AyuSavePreferences prefs) {
         if (prefs.getMessage() == null) {
-            Log.w("AyuGram", "null msg ?");
+            Log.w("TurkGram", "null msg ?");
             return;
         }
 
         try {
             onMessageDeletedInner(prefs);
         } catch (Exception e) {
-            Log.e("AyuGram", "error onMessageDeleted", e);
+            Log.e("TurkGram", "error onMessageDeleted", e);
             FileLog.e("onMessageDeleted", e);
         }
     }
@@ -160,7 +160,7 @@ public class AyuMessagesController {
 
         var msg = prefs.getMessage();
 
-        Log.d("AyuGram", "saving message " + prefs.getMessageId() + " for " + prefs.getDialogId() + " with topic " + prefs.getTopicId());
+        Log.d("TurkGram", "saving message " + prefs.getMessageId() + " for " + prefs.getDialogId() + " with topic " + prefs.getTopicId());
 
         AyuMessageUtils.map(prefs, deletedMessage);
         AyuMessageUtils.mapMedia(prefs, deletedMessage, true);
@@ -189,7 +189,7 @@ public class AyuMessagesController {
                 deletedReaction.documentId = ((TLRPC.TL_reactionCustomEmoji) reaction.reaction).document_id;
                 deletedReaction.isCustom = true;
             } else {
-                Log.e("AyuGram", "fake news emoji");
+                Log.e("TurkGram", "fake news emoji");
                 continue;
             }
 
@@ -231,7 +231,7 @@ public class AyuMessagesController {
                 try {
                     p.delete();
                 } catch (Exception e) {
-                    Log.e("AyuGram", "failed to delete file " + msg.message.mediaPath, e);
+                    Log.e("TurkGram", "failed to delete file " + msg.message.mediaPath, e);
                 }
             }
         }

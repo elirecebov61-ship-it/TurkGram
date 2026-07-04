@@ -33,8 +33,8 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.util.Consumer;
 
-import com.radolyn.ayugram.messages.AyuSavePreferences;
-import com.radolyn.ayugram.utils.AyuState;
+import com.radolyn.turkgram.messages.AyuSavePreferences;
+import com.radolyn.turkgram.utils.AyuState;
 import org.telegram.SQLite.SQLiteCursor;
 import org.telegram.SQLite.SQLiteDatabase;
 import org.telegram.SQLite.SQLiteException;
@@ -86,9 +86,9 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CountDownLatch;
 
-import com.radolyn.ayugram.AyuConfig;
-import com.radolyn.ayugram.AyuConstants;
-import com.radolyn.ayugram.messages.AyuMessagesController;
+import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.turkgram.AyuConstants;
+import com.radolyn.turkgram.messages.AyuMessagesController;
 
 public class MessagesController extends BaseController implements NotificationCenter.NotificationCenterDelegate {
 
@@ -6105,7 +6105,7 @@ public class MessagesController extends BaseController implements NotificationCe
             return;
         }
 
-        // --- AyuGram hook
+        // --- TurkGram hook
         if (!scheduled && AyuConfig.saveDeletedMessages) {
             if (DialogObject.isEncryptedDialog(dialogId) && messages != null && !messages.isEmpty()) { // process TTL messages from secrets
                 for (int a = 0; a < messages.size(); a++) {
@@ -6169,7 +6169,7 @@ public class MessagesController extends BaseController implements NotificationCe
                 }
             }
         }
-        // --- AyuGram hook
+        // --- TurkGram hook
 
         ArrayList<Integer> toSend = null;
         long channelId;
@@ -15189,7 +15189,7 @@ public class MessagesController extends BaseController implements NotificationCe
             }
         }
 
-        // --- AyuGram request hook
+        // --- TurkGram request hook
         if (AyuConfig.saveDeletedMessages && deletedMessages != null) {
             var currentTimeS = (int)(currentTime / 1000);
             var messagesStorage = getMessagesStorage();
@@ -15230,7 +15230,7 @@ public class MessagesController extends BaseController implements NotificationCe
                 }
             }
         }
-        // --- AyuGram request hook
+        // --- TurkGram request hook
 
         if (messages != null) {
             for (int a = 0, size = messages.size(); a < size; a++) {
@@ -16265,7 +16265,7 @@ public class MessagesController extends BaseController implements NotificationCe
                     getNotificationCenter().postNotificationName(NotificationCenter.messagesReadContent, key, value);
                 }
             }
-            if (deletedMessagesFinal != null) { // --- AyuGram: don't notify that messages were deleted; already handled by MESSAGES_DELETED_NOTIFICATION
+            if (deletedMessagesFinal != null) { // --- TurkGram: don't notify that messages were deleted; already handled by MESSAGES_DELETED_NOTIFICATION
                 for (int a = 0, size = deletedMessagesFinal.size(); a < size; a++) {
                     long dialogId = deletedMessagesFinal.keyAt(a);
                     ArrayList<Integer> arrayList = deletedMessagesFinal.valueAt(a);

@@ -1,5 +1,5 @@
 /*
- * This is the source code of AyuGram for Android.
+ * This is the source code of TurkGram for Android.
  *
  * We do not and cannot prevent the use of our code,
  * but be respectful and credit the original author.
@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.easy;
+package com.radolyn.turkgram.easy;
 
 import android.util.Log;
 import org.telegram.messenger.NotificationCenter;
@@ -44,14 +44,14 @@ public class DummyMessageWaiter extends EasyWaiter {
             }
 
             if (System.currentTimeMillis() - time > 3500) {
-                Log.w("AyuGram", "Failed to get sending message id, possibly sent already");
+                Log.w("TurkGram", "Failed to get sending message id, possibly sent already");
 
                 unsubscribe();
                 break;
             }
         }
 
-        Log.w("AyuGram", "Sending message id: " + sendingId);
+        Log.w("TurkGram", "Sending message id: " + sendingId);
 
         if (sendingId != 0) {
             setSendingId(sendingId);

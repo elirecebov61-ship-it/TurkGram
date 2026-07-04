@@ -1,5 +1,5 @@
 /*
- * This is the source code of AyuGram for Android.
+ * This is the source code of TurkGram for Android.
  *
  * We do not and cannot prevent the use of our code,
  * but be respectful and credit the original author.
@@ -7,22 +7,17 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram;
+package com.radolyn.turkgram;
 
 import org.telegram.messenger.BuildVars;
 
 public class AyuConstants {
     public static final long[] OFFICIAL_CHANNELS = {
-            1905581924, // @ayugramchat
-            1794457129, // @ayugram1338
-            1434550607, // @radolyn
+            3738971861, // @turkgramchat
+            3931869848, // @turkgrams
     };
     public static final long[] DEVS = {
-            139303278, // @alexeyzavar
-            778327202, // @sharapagorg
-            963494570, // @Zanko_no_tachi
-            238292700, // @MaxPlays
-            1795176335, // @radolyn_services
+            8034872992, // me
     };
 
     public static final int DOCUMENT_TYPE_NONE = 0;
@@ -49,8 +44,8 @@ public class AyuConstants {
 
     public static String AYU_DATABASE = "ayu-data";
 
-    public static String APP_GITHUB = "AyuGram/AyuGram4A";
-    public static String APP_NAME = "AyuGram";
+    public static String APP_GITHUB = "TurkGram/TurkGram4A";
+    public static String APP_NAME = "TurkGram";
 
     public static String BUILD_STORE_PACKAGE = "com.android.vending";
     public static String BUILD_ORIGINAL_PACKAGE = "org.telegram.messenger";

@@ -1,5 +1,5 @@
 /*
- * This is the source code of AyuGram for Android.
+ * This is the source code of TurkGram for Android.
  *
  * We do not and cannot prevent the use of our code,
  * but be respectful and credit the original author.
@@ -7,9 +7,9 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.easy;
+package com.radolyn.turkgram.easy;
 
-import com.radolyn.ayugram.utils.AyuGhostUtils;
+import com.radolyn.turkgram.utils.AyuGhostUtils;
 import org.telegram.messenger.*;
 import org.telegram.tgnet.TLRPC;
 

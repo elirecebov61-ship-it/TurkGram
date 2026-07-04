@@ -16,10 +16,10 @@ import android.util.LongSparseArray;
 import android.util.SparseArray;
 import android.util.SparseIntArray;
 
-import com.radolyn.ayugram.AyuConfig;
-import com.radolyn.ayugram.AyuConstants;
-import com.radolyn.ayugram.messages.AyuMessagesController;
-import com.radolyn.ayugram.messages.AyuSavePreferences;
+import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.turkgram.AyuConstants;
+import com.radolyn.turkgram.messages.AyuMessagesController;
+import com.radolyn.turkgram.messages.AyuSavePreferences;
 import org.telegram.SQLite.SQLiteCursor;
 import org.telegram.messenger.support.LongSparseIntArray;
 import org.telegram.tgnet.AbstractSerializedData;
@@ -117,7 +117,7 @@ public class SecretChatHelper extends BaseController {
         if (!pendingEncMessagesToDelete.isEmpty()) {
             ArrayList<Long> pendingEncMessagesToDeleteCopy = new ArrayList<>(pendingEncMessagesToDelete);
 
-            // --- AyuGram hook (secret)
+            // --- TurkGram hook (secret)
 
             if (AyuConfig.saveDeletedMessages) {
                 // save before because they will be removed when `runOnUIThread` happens
@@ -157,7 +157,7 @@ public class SecretChatHelper extends BaseController {
                     });
                 }
             }
-            // --- AyuGram hook
+            // --- TurkGram hook
 
             AndroidUtilities.runOnUIThread(() -> {
                 for (int a = 0; a < pendingEncMessagesToDeleteCopy.size(); a++) {

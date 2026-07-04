@@ -84,7 +84,7 @@ import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.MoreExecutors;
 import com.google.common.util.concurrent.SettableFuture;
-import com.radolyn.ayugram.exceptions.AyuPrivacyException;
+import com.radolyn.turkgram.exceptions.AyuPrivacyException;
 
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;
@@ -1637,7 +1637,7 @@ public final class Util {
    * @return A user agent string generated using the applicationName and the library version.
    */
   public static String getUserAgent(Context context, String applicationName) throws AyuPrivacyException {
-    // AyuGram: it's not being called
+    // TurkGram: it's not being called
     throw new AyuPrivacyException();
   }
 

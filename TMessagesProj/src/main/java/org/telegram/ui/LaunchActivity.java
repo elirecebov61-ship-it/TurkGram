@@ -94,10 +94,10 @@ import com.google.android.gms.common.api.Status;
 import com.google.firebase.appindexing.Action;
 import com.google.firebase.appindexing.FirebaseUserActions;
 import com.google.firebase.appindexing.builders.AssistActionBuilder;
-import com.radolyn.ayugram.AyuConfig;
-import com.radolyn.ayugram.AyuConstants;
-import com.radolyn.ayugram.AyuCustomHandlers;
-import com.radolyn.ayugram.AyuUtils;
+import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.turkgram.AyuConstants;
+import com.radolyn.turkgram.AyuCustomHandlers;
+import com.radolyn.turkgram.AyuUtils;
 
 import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.messenger.AccountInstance;
@@ -634,7 +634,7 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
                     drawerLayoutContainer.closeDrawer(false);
                 }
 
-                // --- AyuGram hook
+                // --- TurkGram hook
                 if (id == AyuConstants.DRAWER_TOGGLE_GHOST && AyuConfig.showGhostToggleInDrawer) {
                     var msg = AyuConfig.isGhostModeActive()
                             ? LocaleController.getString("GhostModeDisabled", R.string.GhostModeDisabled)
@@ -650,7 +650,7 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
                 } else if (id == AyuConstants.DRAWER_KILL_APP) {
                     AyuUtils.killApplication(this);
                 }
-                // --- AyuGram hook
+                // --- TurkGram hook
             }
         });
         final ItemTouchHelper sideMenuTouchHelper = new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(ItemTouchHelper.UP | ItemTouchHelper.DOWN, 0) {
