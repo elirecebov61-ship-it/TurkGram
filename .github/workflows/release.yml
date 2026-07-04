@@ -40,6 +40,24 @@ jobs:
           java-version: 17
           cache: gradle
 
+      - name: Cache Gradle Build
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches/build-cache-*
+            ~/.gradle/buildOutputCleanup/cache.properties
+          key: gradle-builds-${{ github.sha }}
+          restore-keys: |
+            gradle-builds-
+
+      - name: Set up ccache
+        uses: hendrikmuhs/ccache-action@v1.2
+        with:
+          key: ccache-${{ runner.os }}
+          restore-keys: |
+            ccache-${{ runner.os }}
+          max-size: 2G
+
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
