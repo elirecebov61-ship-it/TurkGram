@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.utils;
+package com.radolyn.turkgram.utils;
 
 import android.util.Pair;
 import org.telegram.messenger.MessagesController;

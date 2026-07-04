@@ -7,9 +7,9 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.sync;
+package com.radolyn.turkgram.sync;
 
-import com.radolyn.ayugram.AyuUtils;
+import com.radolyn.turkgram.AyuUtils;
 import okhttp3.Interceptor;
 import okhttp3.Response;
 import org.jetbrains.annotations.NotNull;

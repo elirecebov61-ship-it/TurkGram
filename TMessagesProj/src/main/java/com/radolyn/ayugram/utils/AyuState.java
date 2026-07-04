@@ -7,10 +7,10 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.utils;
+package com.radolyn.turkgram.utils;
 
 import android.util.LongSparseArray;
-import com.radolyn.ayugram.AyuConfig;
+import com.radolyn.turkgram.AyuConfig;
 
 import java.util.ArrayList;
 

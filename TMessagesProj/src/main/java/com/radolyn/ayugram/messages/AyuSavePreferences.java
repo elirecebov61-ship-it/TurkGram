@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.messages;
+package com.radolyn.turkgram.messages;
 
 import org.telegram.messenger.MessageObject;
 import org.telegram.messenger.UserConfig;

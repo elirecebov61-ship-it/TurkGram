@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.ui.preferences;
+package com.radolyn.turkgram.ui.preferences;
 
 import android.content.Context;
 import android.view.View;
@@ -15,12 +15,12 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.exteragram.messenger.preferences.BasePreferencesActivity;
-import com.radolyn.ayugram.AyuConfig;
-import com.radolyn.ayugram.AyuConstants;
-import com.radolyn.ayugram.messages.AyuMessagesController;
-import com.radolyn.ayugram.sync.AyuSyncState;
-import com.radolyn.ayugram.ui.preferences.utils.AyuUi;
-import com.radolyn.ayugram.utils.AyuState;
+import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.turkgram.AyuConstants;
+import com.radolyn.turkgram.messages.AyuMessagesController;
+import com.radolyn.turkgram.sync.AyuSyncState;
+import com.radolyn.turkgram.ui.preferences.utils.AyuUi;
+import com.radolyn.turkgram.utils.AyuState;
 import org.jetbrains.annotations.NotNull;
 import org.telegram.messenger.*;
 import org.telegram.ui.ActionBar.Theme;

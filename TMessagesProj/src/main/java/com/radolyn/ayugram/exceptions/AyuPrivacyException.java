@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.exceptions;
+package com.radolyn.turkgram.exceptions;
 
 public class AyuPrivacyException extends Exception {
 }

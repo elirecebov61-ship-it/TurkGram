@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.ui.preferences;
+package com.radolyn.turkgram.ui.preferences;
 
 import android.content.Context;
 import android.util.TypedValue;
@@ -20,7 +20,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.exteragram.messenger.preferences.BasePreferencesActivity;
-import com.radolyn.ayugram.AyuConfig;
+import com.radolyn.turkgram.AyuConfig;
 import org.jetbrains.annotations.NotNull;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

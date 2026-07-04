@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.database.entities;
+package com.radolyn.turkgram.database.entities;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;

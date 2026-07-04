@@ -7,10 +7,10 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.sync;
+package com.radolyn.turkgram.sync;
 
 import android.util.Log;
-import com.radolyn.ayugram.AyuConstants;
+import com.radolyn.turkgram.AyuConstants;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.NotificationCenter;

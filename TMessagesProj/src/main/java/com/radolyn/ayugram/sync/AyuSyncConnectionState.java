@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.sync;
+package com.radolyn.turkgram.sync;
 
 public enum AyuSyncConnectionState {
     Connected,

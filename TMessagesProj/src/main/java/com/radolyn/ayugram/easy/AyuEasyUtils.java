@@ -7,9 +7,9 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.easy;
+package com.radolyn.turkgram.easy;
 
-import com.radolyn.ayugram.utils.AyuGhostUtils;
+import com.radolyn.turkgram.utils.AyuGhostUtils;
 import org.telegram.messenger.*;
 import org.telegram.tgnet.TLRPC;
 

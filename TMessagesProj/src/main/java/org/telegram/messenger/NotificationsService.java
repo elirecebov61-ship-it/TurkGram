@@ -21,7 +21,7 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
 import com.google.android.exoplayer2.util.Log;
-import com.radolyn.ayugram.AyuConfig;
+import com.radolyn.turkgram.AyuConfig;
 import org.telegram.ui.LaunchActivity;
 
 import java.util.Random;
@@ -59,7 +59,7 @@ public class NotificationsService extends Service {
         ApplicationLoader.postInitApplication();
 
         if (AyuConfig.keepAliveService && Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            String CHANNEL_ID = "ayugram_push";
+            String CHANNEL_ID = "turkgram_push";
             NotificationChannelCompat channel = new NotificationChannelCompat.Builder(CHANNEL_ID, NotificationManagerCompat.IMPORTANCE_DEFAULT)
                     .setName("TurkGram Push Service")
                     .setLightsEnabled(false)

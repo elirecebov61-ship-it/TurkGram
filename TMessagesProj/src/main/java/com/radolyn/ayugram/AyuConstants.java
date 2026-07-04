@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram;
+package com.radolyn.turkgram;
 
 import org.telegram.messenger.BuildVars;
 

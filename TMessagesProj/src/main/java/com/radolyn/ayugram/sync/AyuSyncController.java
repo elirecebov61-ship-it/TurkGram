@@ -7,17 +7,17 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.sync;
+package com.radolyn.turkgram.sync;
 
 import android.text.TextUtils;
 import android.util.Log;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
-import com.radolyn.ayugram.AyuConfig;
-import com.radolyn.ayugram.AyuUtils;
-import com.radolyn.ayugram.sync.models.*;
-import com.radolyn.ayugram.utils.AyuGhostUtils;
+import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.turkgram.AyuUtils;
+import com.radolyn.turkgram.sync.models.*;
+import com.radolyn.turkgram.utils.AyuGhostUtils;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;

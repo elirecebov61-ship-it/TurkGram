@@ -7,15 +7,15 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.database;
+package com.radolyn.turkgram.database;
 
 import androidx.room.Database;
 import androidx.room.RoomDatabase;
-import com.radolyn.ayugram.database.dao.DeletedMessageDao;
-import com.radolyn.ayugram.database.dao.EditedMessageDao;
-import com.radolyn.ayugram.database.entities.DeletedMessage;
-import com.radolyn.ayugram.database.entities.DeletedMessageReaction;
-import com.radolyn.ayugram.database.entities.EditedMessage;
+import com.radolyn.turkgram.database.dao.DeletedMessageDao;
+import com.radolyn.turkgram.database.dao.EditedMessageDao;
+import com.radolyn.turkgram.database.entities.DeletedMessage;
+import com.radolyn.turkgram.database.entities.DeletedMessageReaction;
+import com.radolyn.turkgram.database.entities.EditedMessage;
 
 @Database(entities = {
         EditedMessage.class,

@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.ui;
+package com.radolyn.turkgram.ui;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

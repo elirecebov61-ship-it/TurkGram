@@ -7,13 +7,13 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.sync;
+package com.radolyn.turkgram.sync;
 
 import com.google.android.exoplayer2.util.Log;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import com.radolyn.ayugram.AyuConfig;
-import com.radolyn.ayugram.AyuUtils;
+import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.turkgram.AyuUtils;
 import dev.gustavoavila.websocketclient.WebSocketClient;
 import dev.gustavoavila.websocketclient.exceptions.InvalidServerHandshakeException;
 

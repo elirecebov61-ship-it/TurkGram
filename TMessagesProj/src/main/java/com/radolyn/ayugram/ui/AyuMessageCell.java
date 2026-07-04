@@ -7,12 +7,12 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.ui;
+package com.radolyn.turkgram.ui;
 
 import android.app.Activity;
 import android.content.Context;
 import android.text.TextUtils;
-import com.radolyn.ayugram.database.entities.EditedMessage;
+import com.radolyn.turkgram.database.entities.EditedMessage;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.R;

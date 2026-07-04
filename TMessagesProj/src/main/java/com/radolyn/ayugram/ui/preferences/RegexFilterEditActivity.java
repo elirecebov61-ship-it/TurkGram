@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.ayugram.ui.preferences;
+package com.radolyn.turkgram.ui.preferences;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -19,8 +19,8 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.radolyn.ayugram.AyuConfig;
-import com.radolyn.ayugram.AyuUtils;
+import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.turkgram.AyuUtils;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.MessagesController;
