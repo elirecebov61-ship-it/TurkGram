@@ -2948,11 +2948,11 @@ public class DialogCell extends BaseCell {
             //requestLayout();
         }
 
-        // --- AyuGram hook
+        // --- TurkGram hook
         if (AyuFilter.isFiltered(message, null)) {
             AyuUtils.blurify(message);
         }
-        // --- AyuGram hook
+        // --- TurkGram hook
 
         if (!animated) {
             dialogMutedProgress = (dialogMuted || drawUnmute) ? 1f : 0f;

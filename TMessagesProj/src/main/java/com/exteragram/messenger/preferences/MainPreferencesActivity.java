@@ -27,7 +27,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.exteragram.messenger.preferences.components.HeaderSettingsCell;
 import com.exteragram.messenger.preferences.updater.UpdaterBottomSheet;
-import com.radolyn.ayugram.ui.preferences.AyuGramPreferencesActivity;
+import com.radolyn.ayugram.ui.preferences.TurkGramPreferencesActivity;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.BuildVars;
@@ -215,7 +215,7 @@ public class MainPreferencesActivity extends BasePreferencesActivity {
             if (!BuildVars.PM_BUILD)
                 (new UpdaterBottomSheet(getParentActivity(), this, false, null)).show();
         } else if (position == sourceCodeRow) {
-            Browser.openUrl(getParentActivity(), "https://github.com/AyuGram/AyuGram4A");
+            Browser.openUrl(getParentActivity(), "https://github.com/TurkGram/TurkGram4A");
         } else if (position == channelRow) {
             MessagesController.getInstance(currentAccount).openByUserName(("ayugram1338"), this, 1);
         } else if (position == groupRow) {

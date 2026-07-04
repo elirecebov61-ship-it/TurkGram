@@ -613,14 +613,14 @@ public class DownloadController extends BaseController implements NotificationCe
             return 0;
         }
 
-        // --- AyuGram hook
+        // --- TurkGram hook
 
         var isFiltered = AyuFilter.isFiltered(new MessageObject(currentAccount, message, false, false), null);
         if (isFiltered) {
             return 0;
         }
 
-        // --- AyuGram hook
+        // --- TurkGram hook
 
         int type;
         boolean isVideo;

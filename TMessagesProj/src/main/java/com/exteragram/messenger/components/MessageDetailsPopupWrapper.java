@@ -91,7 +91,7 @@ public class MessageDetailsPopupWrapper {
             items.add(new Item(R.drawable.msg_calendar2, LocaleController.getString(R.string.Date), formatTime(messageObject.messageOwner.date, true)));
         }
 
-        // --- AyuGram hook
+        // --- TurkGram hook
 
         if (messageObject.messageOwner.ayuDeleted) {
             var userId = AccountInstance.getInstance(UserConfig.selectedAccount).getUserConfig().clientUserId;
@@ -102,7 +102,7 @@ public class MessageDetailsPopupWrapper {
             }
         }
 
-        // --- AyuGram hook
+        // --- TurkGram hook
 
         if (messageObject.messageOwner.fwd_from != null && messageObject.messageOwner.fwd_from.date > 0 && messageObject.messageOwner.fwd_from.date != messageObject.messageOwner.date) {
             items.add(new Item(R.drawable.msg_recent, LocaleController.getString(R.string.ForwardedDate), formatTime(messageObject.messageOwner.fwd_from.date, true)));

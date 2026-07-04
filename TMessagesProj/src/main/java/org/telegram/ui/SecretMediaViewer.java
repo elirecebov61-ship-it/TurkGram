@@ -359,11 +359,11 @@ public class SecretMediaViewer implements NotificationCenter.NotificationCenterD
             if (scheduled) {
                 return;
             }
-            // --- AyuGram hook
+            // --- TurkGram hook
             if (AyuConfig.saveDeletedMessages) {
                 return;
             }
-            // --- AyuGram hook
+            // --- TurkGram hook
             if (currentMessageObject == null) {
                 return;
             }

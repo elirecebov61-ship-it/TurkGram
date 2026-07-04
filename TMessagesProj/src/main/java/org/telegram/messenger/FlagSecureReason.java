@@ -64,7 +64,7 @@ public class FlagSecureReason {
             return;
         }
 
-        // AyuGram: removed
+        // TurkGram: removed
         window.clearFlags(WindowManager.LayoutParams.FLAG_SECURE);
     }
 

@@ -5939,7 +5939,7 @@ public class MessageObject {
     }
 
     public static boolean shouldEncryptPhotoOrVideo(TLRPC.Message message) {
-        // AyuGram: disable encryption
+        // TurkGram: disable encryption
         if (true) {
             return false;
         }

@@ -5363,9 +5363,9 @@ public class AlertsCreator {
             count = selectedMessages[0].size() + selectedMessages[1].size();
         }
 
-        // --- AyuGram hook
+        // --- TurkGram hook
         FrameLayout ayuFrameLayout = null;
-        // --- AyuGram hook
+        // --- TurkGram hook
 
         long dialogId;
         if (encryptedChat != null) {
@@ -5619,7 +5619,7 @@ public class AlertsCreator {
             }
         }
 
-        // --- AyuGram hook
+        // --- TurkGram hook
         final boolean[] keepLocally = {false};
 
         if (ayuFrameLayout == null) {
@@ -5641,7 +5641,7 @@ public class AlertsCreator {
             keepLocally[0] = !keepLocally[0];
             cell1.setChecked(keepLocally[0], true);
         });
-        // --- AyuGram hook
+        // --- TurkGram hook
 
         final TLRPC.User userFinal = actionUser;
         final TLRPC.Chat chatFinal = actionChat;

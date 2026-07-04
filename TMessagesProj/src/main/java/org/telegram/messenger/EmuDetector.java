@@ -177,7 +177,7 @@ public class EmuDetector {
     }
 
     public boolean detect() {
-        // AyuGram: remove emulator detection
+        // TurkGram: remove emulator detection
         return false;
     }
 
