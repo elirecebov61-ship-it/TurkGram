@@ -7,13 +7,13 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram;
+package com.radolyn.ayugram;
 
 import android.text.TextUtils;
 import android.util.LongSparseArray;
 import com.exteragram.messenger.utils.ChatUtils;
 import com.google.android.exoplayer2.util.Log;
-import com.radolyn.turkgram.easy.AyuEasyUtils;
+import com.radolyn.ayugram.easy.AyuEasyUtils;
 import org.telegram.messenger.*;
 import org.telegram.tgnet.TLRPC;
 

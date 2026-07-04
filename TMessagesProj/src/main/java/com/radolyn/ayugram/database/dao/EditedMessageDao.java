@@ -7,12 +7,12 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram.database.dao;
+package com.radolyn.ayugram.database.dao;
 
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.Query;
-import com.radolyn.turkgram.database.entities.EditedMessage;
+import com.radolyn.ayugram.database.entities.EditedMessage;
 
 import java.util.List;
 

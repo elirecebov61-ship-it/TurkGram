@@ -63,10 +63,10 @@ import androidx.annotation.RawRes;
 import androidx.annotation.RequiresApi;
 import androidx.core.util.Consumer;
 
-import com.radolyn.turkgram.AyuConstants;
-import com.radolyn.turkgram.messages.AyuMessagesController;
-import com.radolyn.turkgram.messages.AyuSavePreferences;
-import com.radolyn.turkgram.utils.AyuState;
+import com.radolyn.ayugram.AyuConstants;
+import com.radolyn.ayugram.messages.AyuMessagesController;
+import com.radolyn.ayugram.messages.AyuSavePreferences;
+import com.radolyn.ayugram.utils.AyuState;
 import org.telegram.messenger.AccountInstance;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

@@ -49,8 +49,8 @@ import androidx.collection.LongSparseArray;
 import androidx.core.content.ContextCompat;
 import androidx.core.graphics.ColorUtils;
 
-import com.radolyn.turkgram.AyuFilter;
-import com.radolyn.turkgram.AyuUtils;
+import com.radolyn.ayugram.AyuFilter;
+import com.radolyn.ayugram.AyuUtils;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;
 import org.telegram.messenger.ChatObject;

@@ -102,9 +102,9 @@ import com.exteragram.messenger.utils.AppUtils;
 import com.exteragram.messenger.utils.CanvasUtils;
 import com.exteragram.messenger.utils.ChatUtils;
 import com.exteragram.messenger.utils.LocaleUtils;
-import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.ayugram.AyuConfig;
 
-import com.radolyn.turkgram.ui.preferences.TurkGramPreferencesActivity;
+import com.radolyn.ayugram.ui.preferences.TurkGramPreferencesActivity;
 import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.messenger.AccountInstance;
 import org.telegram.messenger.AndroidUtilities;

@@ -7,9 +7,9 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram.sync;
+package com.radolyn.ayugram.sync;
 
-import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.ayugram.AyuConfig;
 
 public class AyuSyncConfig {
     private static String getWebSocketProtocol() {

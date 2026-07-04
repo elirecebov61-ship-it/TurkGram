@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram.sync;
+package com.radolyn.ayugram.sync;
 
 public class AyuSyncControllerEmpty extends AyuSyncController {
     @Override

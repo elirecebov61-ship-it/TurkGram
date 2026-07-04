@@ -39,9 +39,9 @@ import com.exteragram.messenger.camera.CameraXUtils;
 import com.exteragram.messenger.utils.CrashlyticsUtils;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.crashlytics.FirebaseCrashlytics;
-import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.ayugram.AyuConfig;
 
-import com.radolyn.turkgram.sync.AyuSyncController;
+import com.radolyn.ayugram.sync.AyuSyncController;
 import org.telegram.messenger.voip.VideoCapturerDevice;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
@@ -141,7 +141,7 @@ public class ApplicationLoader extends Application {
         } catch (Exception e) {
             FileLog.e(e);
         }
-        return new File("/data/data/com.radolyn.turkgram/files");
+        return new File("/data/data/com.turkgrams.messenger/files");
     }
 
     public static void postInitApplication() {

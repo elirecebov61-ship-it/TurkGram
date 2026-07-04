@@ -7,12 +7,12 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram.ui.preferences.utils;
+package com.radolyn.ayugram.ui.preferences.utils;
 
 import android.view.View;
-import com.radolyn.turkgram.AyuConfig;
-import com.radolyn.turkgram.ui.preferences.RegexFilterEditActivity;
-import com.radolyn.turkgram.ui.preferences.RegexFiltersPreferencesActivity;
+import com.radolyn.ayugram.AyuConfig;
+import com.radolyn.ayugram.ui.preferences.RegexFilterEditActivity;
+import com.radolyn.ayugram.ui.preferences.RegexFiltersPreferencesActivity;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.R;
 import org.telegram.ui.ActionBar.ActionBarMenuItem;

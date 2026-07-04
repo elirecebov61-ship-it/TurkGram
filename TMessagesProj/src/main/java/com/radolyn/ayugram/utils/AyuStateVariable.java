@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram.utils;
+package com.radolyn.ayugram.utils;
 
 public class AyuStateVariable {
     private final Object sync = new Object();

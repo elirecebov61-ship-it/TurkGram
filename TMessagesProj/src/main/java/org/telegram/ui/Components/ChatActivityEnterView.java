@@ -109,8 +109,8 @@ import com.exteragram.messenger.boost.encryption.EncryptionHelper;
 import com.exteragram.messenger.utils.ChatUtils;
 import com.exteragram.messenger.utils.PopupUtils;
 import com.exteragram.messenger.utils.TranslatorUtils;
-import com.radolyn.turkgram.AyuConfig;
-import com.radolyn.turkgram.utils.AyuState;
+import com.radolyn.ayugram.AyuConfig;
+import com.radolyn.ayugram.utils.AyuState;
 
 import org.telegram.messenger.AccountInstance;
 import org.telegram.messenger.AndroidUtilities;

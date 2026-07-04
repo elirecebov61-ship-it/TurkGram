@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram.sync.models;
+package com.radolyn.ayugram.sync.models;
 
 public class SyncForceFinish implements SyncEvent {
     public String type = "sync_force_finish";

@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram.easy;
+package com.radolyn.ayugram.easy;
 
 import com.google.android.exoplayer2.util.Log;
 import org.telegram.messenger.AndroidUtilities;

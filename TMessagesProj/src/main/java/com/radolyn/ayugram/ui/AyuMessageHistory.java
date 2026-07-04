@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram.ui;
+package com.radolyn.ayugram.ui;
 
 import android.content.Context;
 import android.view.View;
@@ -15,9 +15,9 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import com.radolyn.turkgram.AyuConstants;
-import com.radolyn.turkgram.database.entities.EditedMessage;
-import com.radolyn.turkgram.messages.AyuMessagesController;
+import com.radolyn.ayugram.AyuConstants;
+import com.radolyn.ayugram.database.entities.EditedMessage;
+import com.radolyn.ayugram.messages.AyuMessagesController;
 import com.radolyn.ayugram.proprietary.AyuMessageUtils;
 import org.telegram.messenger.*;
 import org.telegram.tgnet.TLRPC;

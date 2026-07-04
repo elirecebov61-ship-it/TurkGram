@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram.sync.models;
+package com.radolyn.ayugram.sync.models;
 
 public class SyncMessageEntity {
     public byte[] data;

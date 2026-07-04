@@ -7,11 +7,11 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram.ui.preferences.utils;
+package com.radolyn.ayugram.ui.preferences.utils;
 
 import android.app.Activity;
 import android.widget.LinearLayout;
-import com.radolyn.turkgram.AyuConfig;
+import com.radolyn.ayugram.AyuConfig;
 import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.R;
 import org.telegram.ui.ActionBar.AlertDialog;

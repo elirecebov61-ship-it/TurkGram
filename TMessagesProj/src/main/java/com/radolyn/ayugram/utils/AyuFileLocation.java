@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram.utils;
+package com.radolyn.ayugram.utils;
 
 import org.telegram.tgnet.TLRPC;
 

@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram;
+package com.radolyn.ayugram;
 
 import android.text.TextUtils;
 import android.util.LongSparseArray;

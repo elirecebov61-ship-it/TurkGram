@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram.database.entities;
+package com.radolyn.ayugram.database.entities;
 
 public abstract class AyuMessageBase {
     public long userId;

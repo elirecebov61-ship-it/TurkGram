@@ -7,7 +7,7 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram.easy;
+package com.radolyn.ayugram.easy;
 
 import android.text.TextUtils;
 import android.util.Log;

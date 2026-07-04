@@ -7,20 +7,20 @@
  * Copyright @Radolyn, 2023
  */
 
-package com.radolyn.turkgram.messages;
+package com.radolyn.ayugram.messages;
 
 import android.os.Environment;
 import android.text.TextUtils;
 import com.google.android.exoplayer2.util.Log;
-import com.radolyn.turkgram.AyuConfig;
-import com.radolyn.turkgram.AyuConstants;
-import com.radolyn.turkgram.database.AyuData;
-import com.radolyn.turkgram.database.dao.DeletedMessageDao;
-import com.radolyn.turkgram.database.dao.EditedMessageDao;
-import com.radolyn.turkgram.database.entities.DeletedMessage;
-import com.radolyn.turkgram.database.entities.DeletedMessageFull;
-import com.radolyn.turkgram.database.entities.DeletedMessageReaction;
-import com.radolyn.turkgram.database.entities.EditedMessage;
+import com.radolyn.ayugram.AyuConfig;
+import com.radolyn.ayugram.AyuConstants;
+import com.radolyn.ayugram.database.AyuData;
+import com.radolyn.ayugram.database.dao.DeletedMessageDao;
+import com.radolyn.ayugram.database.dao.EditedMessageDao;
+import com.radolyn.ayugram.database.entities.DeletedMessage;
+import com.radolyn.ayugram.database.entities.DeletedMessageFull;
+import com.radolyn.ayugram.database.entities.DeletedMessageReaction;
+import com.radolyn.ayugram.database.entities.EditedMessage;
 import com.radolyn.ayugram.proprietary.AyuMessageUtils;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;
