@@ -29,7 +29,7 @@ jobs:
             MAPS_V2_API = "${{ secrets.MAPS_KEY }}"
 
             SIGNING_KEY_PASSWORD = "${{ secrets.CERT_KEY }}"
-            SIGNING_KEY_ALIAS = "${{ secrets.CERT_KEY }}"
+            SIGNING_KEY_ALIAS = "turkgram"
             SIGNING_KEY_STORE_PASSWORD = "${{ secrets.CERT_KEY }}"
           write-mode: overwrite
 
